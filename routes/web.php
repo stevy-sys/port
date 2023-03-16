@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\IndexController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/welcome', [IndexController::class, 'index'])->name('welcome');
+Route::get('/about', [IndexController::class, 'about'])->name('about');
+Route::get('/port-folio', [IndexController::class, 'portfolio'])->name('portfolio');
+Route::get('/port-folio/detail', [IndexController::class, 'portfolioShow'])->name('portfolio.show');
+Route::get('/service', [IndexController::class, 'service'])->name('service');
+Route::get('/contact', [IndexController::class, 'contact'])->name('contact');
+Route::get('/', [IndexController::class, 'welcome'])->name('index');
 
 Auth::routes();
 

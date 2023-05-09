@@ -15,7 +15,7 @@
                             Portfolio
                         </h3>
                         <p class="subtitle-a">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Vous pouvez voir ici mes meilleurs realisations
                         </p>
                         <div class="line-mf"></div>
                     </div>

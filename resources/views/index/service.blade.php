@@ -15,7 +15,7 @@
                         Services
                     </h3>
                     <p class="subtitle-a">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Mes qualites en tant que developpeur
                     </p>
                     <div class="line-mf"></div>
                 </div>
@@ -28,12 +28,9 @@
                         <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
                     </div>
                     <div class="service-content">
-                        <h2 class="s-title">Web Design</h2>
+                        <h2 class="s-title">Developpeur Laravel</h2>
                         <p class="s-description text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem
-                            fugiat! Quia,
-                            provident vitae! Magni
-                            tempora perferendis eum non provident.
+                           Avec le Framwork laravel , 
                         </p>
                     </div>
                 </div>

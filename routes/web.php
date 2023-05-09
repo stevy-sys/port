@@ -23,6 +23,7 @@ Route::get('/service', [IndexController::class, 'service'])->name('service');
 Route::get('/contact', [IndexController::class, 'contact'])->name('contact');
 Route::get('/', [IndexController::class, 'welcome'])->name('index');
 
-Auth::routes();
+Auth::routes(['register' => true]);
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

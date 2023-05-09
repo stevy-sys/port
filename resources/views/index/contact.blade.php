@@ -21,12 +21,11 @@ style="background-image: url(assets/img/overlay-bg.jpg)">
                         <div class="col-md-6">
                             <div class="title-box-2">
                                 <h5 class="title-left">
-                                    Send Message Us
+                                    Contactez-moi
                                 </h5>
                             </div>
                             <div>
-                                <form action="forms/contact.php" method="post" role="form"
-                                    class="php-email-form">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                                     <div class="row">
                                         <div class="col-md-12 mb-3">
                                             <div class="form-group">
@@ -69,23 +68,22 @@ style="background-image: url(assets/img/overlay-bg.jpg)">
                         <div class="col-md-6">
                             <div class="title-box-2 pt-4 pt-md-0">
                                 <h5 class="title-left">
-                                    Get in Touch
+                                    Mes references
                                 </h5>
                             </div>
                             <div class="more-info">
-                                <p class="lead">
+                                {{-- <p class="lead">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum
                                     dolorem soluta quidem
                                     expedita aperiam aliquid at.
                                     Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione
                                     nobis
                                     mollitia inventore?
-                                </p>
+                                </p> --}}
                                 <ul class="list-ico">
-                                    <li><span class="bi bi-geo-alt"></span> 329 WASHINGTON ST BOSTON, MA
-                                        02108</li>
-                                    <li><span class="bi bi-phone"></span> (617) 557-0089</li>
-                                    <li><span class="bi bi-envelope"></span> contact@example.com</li>
+                                    <li><span class="bi bi-geo-alt"></span> Antananarivo , MADAGASCAR</li>
+                                    <li><span class="bi bi-phone"></span> (+261) 345251717</li>
+                                    <li><span class="bi bi-envelope"></span> stevyralambomanana@gmail.com</li>
                                 </ul>
                             </div>
                             <div class="socials">
